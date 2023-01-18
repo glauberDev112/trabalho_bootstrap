@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 82vw;
+}
+.my_obj * {
+    display: block;
+}
+.my_obj button {
+    margin-top: 5px;
+}
+.obj_1 {
+    max-width: 200px;
+    width: 100%;
+    padding: 3px;
+    padding-bottom: 17px;
+    background-color: white;
+}
+.obj_1 * {
+    max-width: 1000px;
+    
+}
+.user-inf > * {
+    display: block;
+}
+.login {
+    display: none;
+}
